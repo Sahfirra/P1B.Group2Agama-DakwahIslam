@@ -459,3 +459,82 @@
     }
 
 }
+
+/* Palet halaman: menyesuaikan tema emerald/sage tanpa mengubah layout. */
+.schedule-hero {
+    background: linear-gradient(150deg, #1e5a42, #134633);
+}
+
+.schedule-label {
+    color: #ebd37d;
+}
+
+.schedule-hero h1 {
+    color: #f7e6ab;
+}
+
+.schedule-container {
+    background: #faf8f5;
+}
+
+.schedule-announcement {
+    border-left-color: #c29d38;
+    box-shadow: 0 4px 16px rgba(27, 43, 35, 0.04);
+}
+
+.schedule-announcement h2,
+.schedule-card h2,
+.event-countdown {
+    color: #1e5a42;
+}
+
+.schedule-announcement p,
+.schedule-description,
+.countdown-box p,
+.schedule-empty {
+    color: #5e6f66;
+}
+
+.schedule-card {
+    border-color: #e3e8e2;
+    box-shadow: 0 4px 18px rgba(27, 43, 35, 0.04);
+}
+
+.schedule-card:hover {
+    box-shadow: 0 8px 22px rgba(27, 43, 35, 0.08);
+}
+
+.schedule-category,
+.info-icon {
+    background: #ebf3ee;
+}
+
+.schedule-category {
+    color: #1e5a42;
+}
+
+.schedule-status {
+    color: #c29d38;
+}
+
+.schedule-info-item small,
+.calendar-note {
+    color: #7b8c82;
+}
+
+.schedule-info-item p {
+    color: #1f3329;
+}
+
+.countdown-box {
+    background: #f4f6f1;
+    border-color: #e3e8e2;
+}
+
+.calendar-button {
+    background: #1e5a42;
+}
+
+.calendar-button:hover {
+    background: #164633;
+}

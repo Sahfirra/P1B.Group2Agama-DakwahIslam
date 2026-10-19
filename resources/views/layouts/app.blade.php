@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -7,33 +6,27 @@
 
     <title>@yield('title', 'e-Masjid.id')</title>
 
-    <!-- CSS umum untuk semua halaman -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=1">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=3">
 
-    <!-- CSS khusus halaman Dakwah Islam -->
     @if (request()->routeIs('blog.*'))
-        <link rel="stylesheet" href="{{ asset('css/dakwah.css') }}?v=1">
+        <link rel="stylesheet" href="{{ asset('css/dakwah.css') }}?v=3">
     @endif
 
-    <!-- CSS khusus halaman Jadwal Kegiatan -->
     @if (request()->routeIs('jadwal.*'))
-        <link rel="stylesheet" href="{{ asset('css/jadwal.css') }}?v=1">
+        <link rel="stylesheet" href="{{ asset('css/jadwal.css') }}?v=3">
     @endif
 
-    <!-- CSS khusus halaman Dashboard -->
     @if (request()->routeIs('dashboard'))
-        <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}?v=1">
+        <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}?v=3">
     @endif
 
-    <!-- CSS khusus halaman Tentang Kami -->
     @if (request()->routeIs('tentang'))
-        <link rel="stylesheet" href="{{ asset('css/tentang.css') }}?v=1">
+        <link rel="stylesheet" href="{{ asset('css/tentang.css') }}?v=3">
     @endif
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
     <header class="site-header">
         <div class="navbar">
 
@@ -69,10 +62,33 @@
         </div>
     </header>
 
-    <!-- KONTEN HALAMAN -->
     <main>
         @yield('content')
     </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="site-footer-brand">
+                <h3>e-Masjid.id</h3>
+                <p>
+                    Memakmurkan masjid, menghubungkan umat,
+                    dan bertumbuh bersama teknologi.
+                </p>
+            </div>
+            <div class="site-footer-nav">
+                <span>NAVIGASI</span>
+                <div class="site-footer-links">
+                    <a href="{{ route('dashboard') }}">Dashboard</a>
+                    <a href="{{ route('jadwal.index') }}">Jadwal Kegiatan</a>
+                    <a href="{{ route('blog.index') }}">Dakwah Islam</a>
+                    <a href="{{ route('tentang') }}">Tentang Kami</a>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer-bottom">
+            <p>&copy; 2026 e-Masjid.id. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
 
 </body>
 </html>

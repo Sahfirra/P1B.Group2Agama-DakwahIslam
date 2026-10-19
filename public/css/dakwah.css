@@ -532,3 +532,75 @@
     height: 100%;
     border: none;
 }
+
+/* Palet halaman: menyesuaikan tema emerald/sage tanpa mengubah layout. */
+.blog-hero {
+    background: linear-gradient(150deg, #1e5a42, #134633);
+}
+
+.blog-hero h1 {
+    color: #f7e6ab;
+}
+
+.search-form button {
+    background: #c29d38;
+    color: #1a382c;
+}
+
+.search-form button:hover {
+    background: #af8d31;
+}
+
+.blog-listing {
+    background: #faf8f5;
+}
+
+.blog-card {
+    border: 1px solid #e3e8e2;
+    box-shadow: 0 4px 18px rgba(27, 43, 35, 0.04);
+}
+
+.card-image-placeholder {
+    background: linear-gradient(135deg, #1e5a42, #134633);
+    color: #f7e6ab;
+}
+
+.card-content h2,
+.article-detail h1,
+.youtube-section h2,
+.summary-section h2,
+.simple-page h1 {
+    color: #1e5a42;
+}
+
+.speaker {
+    color: #c29d38;
+}
+
+.card-meta,
+.card-excerpt,
+.youtube-section p,
+.summary-section p,
+.empty-message,
+.breadcrumbs {
+    color: #5e6f66;
+}
+
+.read-more,
+.back-link {
+    color: #c29d38;
+}
+
+.read-more:hover,
+.back-link:hover {
+    color: #9d7c26;
+}
+
+.dakwah-info {
+    background: #ebf3ee;
+    border-left-color: #c29d38;
+}
+
+.dakwah-info p {
+    color: #1f3329;
+}

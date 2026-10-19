@@ -11,15 +11,10 @@
 
         <span class="about-label">TENTANG KAMI</span>
 
-        <h1>
-            Masjid Bukan Hanya Tempat Ibadah,
-            Tapi Tempat Kita Bertumbuh
-        </h1>
+        <h1>Masjid, Tempat Kita Bertumbuh</h1>
 
         <p>
-            Menghubungkan jamaah, memudahkan akses informasi,
-            dan mengajak generasi muda lebih dekat dengan masjid
-            melalui teknologi digital.
+            Informasi masjid dan kegiatan keagamaan, lebih dekat melalui teknologi.
         </p>
 
         <a href="#relawan" class="about-hero-button">
@@ -37,21 +32,14 @@
 
         <span class="about-section-label">SIAPA KAMI?</span>
 
-        <h2>Menghidupkan Masjid di Era Digital</h2>
+        <h2>Masjid di Era Digital</h2>
 
         <p>
-            Website ini dikembangkan sebagai sarana informasi
-            kegiatan keagamaan yang mudah diakses oleh jamaah.
-            Melalui pemanfaatan teknologi, informasi jadwal salat,
-            pengajian, sholawat, dan materi dakwah dapat dijangkau
-            dengan lebih praktis.
+            Informasi salat, pengajian, sholawat, dan dakwah mudah diakses jamaah.
         </p>
 
         <p>
-            Kami ingin menjadikan teknologi bukan sekadar alat
-            untuk mendapatkan informasi, tetapi juga sebagai
-            jembatan yang menghubungkan masyarakat dengan kegiatan
-            masjid, khususnya generasi muda.
+            Teknologi menghubungkan masyarakat, terutama generasi muda, dengan kegiatan masjid.
         </p>
 
     </div>
@@ -61,28 +49,19 @@
         <div class="about-value-card">
             <span>📱</span>
             <h3>Informasi Mudah Diakses</h3>
-            <p>
-                Informasi masjid dapat dilihat melalui perangkat
-                yang terhubung dengan internet.
-            </p>
+            <p>Informasi masjid tersedia melalui internet.</p>
         </div>
 
         <div class="about-value-card">
             <span>🤝</span>
             <h3>Membangun Kebersamaan</h3>
-            <p>
-                Mendorong jamaah untuk saling mengenal dan
-                berpartisipasi dalam kegiatan masjid.
-            </p>
+            <p>Mendorong jamaah berpartisipasi dalam kegiatan masjid.</p>
         </div>
 
         <div class="about-value-card">
             <span>🌱</span>
-            <h3>Ruang bagi Generasi Muda</h3>
-            <p>
-                Membuka kesempatan bagi remaja untuk belajar,
-                berkontribusi, dan mengembangkan diri.
-            </p>
+            <h3>Ruang Generasi Muda</h3>
+            <p>Tempat remaja belajar dan berkontribusi.</p>
         </div>
 
     </div>
@@ -96,12 +75,9 @@
     <div class="about-heading">
         <span class="about-section-label">GALERI KEGIATAN</span>
 
-        <h2>Masjid, Ruang untuk Berbagi Kebaikan</h2>
+        <h2>Ruang untuk Berbagi Kebaikan</h2>
 
-        <p>
-            Dari ibadah bersama hingga kegiatan sosial,
-            setiap langkah kecil dapat membawa manfaat.
-        </p>
+        <p>Dari ibadah hingga kegiatan sosial, setiap langkah membawa manfaat.</p>
     </div>
 
 
@@ -157,9 +133,7 @@
     </div>
 
     <p class="about-gallery-note">
-        Foto di atas merupakan ilustrasi. Ganti dengan dokumentasi
-        asli kegiatan masjid agar galeri sesuai dengan kegiatan
-        yang benar-benar dilaksanakan.
+        Foto ilustrasi. Ganti dengan dokumentasi kegiatan masjid.
     </p>
 
 </section>
@@ -172,20 +146,14 @@
 
         <span class="about-label">RUANG UNTUK GENERASI MUDA</span>
 
-        <h2>
-            Yuk, Jadi Bagian dari Perubahan!
-        </h2>
+        <h2>Jadi Bagian dari Perubahan</h2>
 
         <p>
-            Punya ide kreatif, suka membuat konten, tertarik dengan
-            teknologi, atau ingin ikut kegiatan sosial? Masjid juga
-            membutuhkan energi dan gagasan dari generasi muda.
+            Punya ide, suka konten atau teknologi? Mari ikut kegiatan masjid.
         </p>
 
         <p>
-            Kamu tidak harus punya pengalaman terlebih dahulu.
-            Mulai dari kemauan belajar, semangat bekerja sama,
-            dan niat untuk memberi manfaat bagi sesama.
+            Mulai dengan kemauan belajar dan semangat memberi manfaat.
         </p>
 
         <div class="about-volunteer-benefits">
@@ -214,10 +182,7 @@
 
         <h2>Mari Terhubung dengan Masjid</h2>
 
-        <p>
-            Ingin mengetahui kegiatan masjid, menyampaikan pertanyaan,
-            atau bergabung menjadi relawan? Silakan hubungi pengurus.
-        </p>
+        <p>Untuk informasi, pertanyaan, atau relawan, hubungi pengurus.</p>
 
     </div>
 
@@ -281,43 +246,9 @@
     </div>
 
     <p class="about-contact-note">
-        Sebelum website dipublikasikan, lengkapi nama masjid,
-        alamat, serta kontak resmi pengurus.
+        Lengkapi nama masjid, alamat, dan kontak pengurus sebelum publikasi.
     </p>
 
 </section>
-
-
-<!-- FOOTER -->
-<footer class="about-footer">
-
-    <a href="{{ route('dashboard') }}" class="about-footer-brand">
-        e-Masjid.id
-    </a>
-
-    <p>
-        Memakmurkan masjid, menghubungkan umat,
-        dan bertumbuh bersama teknologi.
-    </p>
-
-    <div class="about-footer-links">
-
-        <a href="{{ route('dashboard') }}">Dashboard</a>
-
-        <a href="{{ route('jadwal.index') }}">
-            Jadwal Kegiatan
-        </a>
-
-        <a href="{{ route('blog.index') }}">
-            Dakwah Islam
-        </a>
-
-    </div>
-
-    <p class="about-copyright">
-        © {{ date('Y') }} e-Masjid.id
-    </p>
-
-</footer>
 
 @endsection
